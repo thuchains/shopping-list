@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+h1 {
+    font-size: 40px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+#input-error {
+    color: rgb(236, 61, 61);
+    font-size: 1.1rem;
+    min-height: 1.2rem;
+}
+
+.box-add {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#item-input {
+    width: 40vw;
+    height: 8vh;
+    font-size: 20px;
+    border-radius: 8px;
+    min-width: 250px;
+    border: 2px solid rgb(56, 54, 54);
+}
+
+li {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.button-actions {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+
+#add-btn, #clear-btn {
+    height: 7vh;
+    width: 6vw;
+    border-radius: 8px;
+    min-width: 80px;
+}
+
+.stats {
+    margin: 25px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    gap: 70px;
+}
+
+li:hover, button:hover {
+    color: rgb(255, 5, 143);
+    border-color: rgb(255, 5, 143);
+}
+
+#item-input:focus, #item-input:hover {
+    border-color: rgb(130, 188, 221);
+    outline: none;
+
+}
+

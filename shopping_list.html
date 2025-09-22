@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Shopping List</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Shopping List</h1>
+        <form class="list-form">
+            <div class="box-add">
+                <span id="input-error" aria-live="polite"></span>
+                <input type="text" id="item-input" placeholder="i.e. eggs">
+                <div class="button-actions">
+                    <button id="add-btn" type="submit">Add Item</button>
+                    <button id="clear-btn">Clear Items</button>
+                </div>
+            </div>
+        </form>
+        <ul id="shopping-list">
+            
+        </ul>
+        <div class="stats">
+            <span id="total-count">Total Count: 0</span>
+            <span id="completed-count">Completed Count: 0</span>
+            <span id="remaining-count">Remaining Count: 0</span>
+        </div>
+    </div>
+    <script src="shopping_list.js"></script>
+</body>
+</html> 
