@@ -39,10 +39,10 @@ ul {
 }
 
 #item-input {
-    width: 40vw;
+    width: 45vw;
     height: 8vh;
     font-size: 20px;
-    border-radius: 8px;
+    border-radius: 12px;
     min-width: 250px;
     border: 2px solid rgb(56, 54, 54);
 }
@@ -59,10 +59,11 @@ li {
 }
 
 #add-btn, #clear-btn {
-    height: 7vh;
-    width: 6vw;
-    border-radius: 8px;
+    height: 4.5vh;
+    width: 15vw;
+    border-radius: 12px;
     min-width: 80px;
+    max-width: 130px;
 }
 
 .stats {
@@ -86,3 +87,7 @@ li:hover, button:hover {
 
 }
 
+#shopping-list label:has(input:checked) {
+    text-decoration: line-through;
+    color: rgb(220, 23, 23);
+}
